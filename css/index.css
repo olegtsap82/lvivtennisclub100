@@ -1,0 +1,129 @@
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+	background: linear-gradient(#F4FFE1, #CBFF82);
+	background-size: cover;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-item1 {
+	flex: 0 0 29%;
+}
+.flex-item2 {
+	flex: 0 0 70%;
+}
+.flex-item3 {
+	flex: 0 0 60%;
+}
+.flex-item4 {
+	flex: 0 0 40%;
+}
+#header-img {
+    width: 100%;
+}
+#ball {
+	width: 100%;
+}
+#sharapova {
+	width: 100%;
+}
+#nadal {
+	width:100%;
+}
+figure {
+	margin:5px;
+	text-align: center;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: larger;
+	text-shadow: 0 0 3px #FF0000;
+}
+#logo {
+	text-decoration: none;
+}
+#logo-footer {
+	width: 50%;
+	height: 60%;
+	margin-top: 5px;
+}
+nav {
+	background-color: #A2EF08;
+	border-radius: 5px;
+	margin-left: 5px;
+	
+}
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 18px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.header-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+	border:2px solid green;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+.header-menu .active {
+	background: #67A500;
+	color: #000000;
+	border-radius: 5px;
+}
+.header-menu a {
+	color: #000000;
+	font-weight: bold;
+}
+nav li:hover {
+	background-color: #A1A19B;
+	border-radius: 5px;
+}
+nav li.active:hover {
+	background-color: #A1A19B;
+	border-radius: 5px;
+}
+
+footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #C8FF00;
+    height: 70px;
+}
+.nav-net li {
+	display: inline-block;
+}
+.flex-item4 p {
+	margin: 10px;
+	text-align: justify;
+}
+.flex-item4 h2 {
+	text-align: center;
+}
+.flex-item4 span {
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 10px;
+	font-size: larger;
+}
+form {
+	border: 1px solid green;
+	margin-left: 10px;
+}
+
+
