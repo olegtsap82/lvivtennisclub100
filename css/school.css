@@ -1,0 +1,40 @@
+.flex-item3-school {
+	flex: 0 0 50%;
+}
+
+.flex-item4-school {
+	flex: 0 0 50%;
+}
+
+.flex-item4-school p {
+	margin: 10px;
+	text-align: justify;
+}
+
+.flex-item4-school h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.flex-item4-school span {
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 10px;
+	font-size: larger;
+}
+
+#kids {
+	width: 100%;
+}
+
+#school {
+	width: 100%;
+}
+
+#kids4 {
+	width: 100%;
+}
+
+#members {
+	width: 100%;
+}

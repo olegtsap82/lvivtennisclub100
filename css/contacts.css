@@ -1,0 +1,26 @@
+.flex-container-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container-contacts-item {
+    flex: 0 0 30%;
+    width: auto;
+}
+
+.flex-container-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item-map1 {
+    flex: 0 0 55%;
+}
+
+.flex-item-map2 {
+    flex: 0 0 45%;
+    font-family: sans-serif;
+    font-size: larger;
+}

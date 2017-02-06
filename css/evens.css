@@ -1,0 +1,63 @@
+ table {
+     background-color: #DCFFC3;
+     margin: 5px;
+ }
+ 
+ td {
+     text-align: center;
+ }
+ 
+ table,
+ th,
+ td {
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #F3F3EA
+ }
+ 
+ th {
+     background-color: #2AA300;
+     color: white;
+ }
+ 
+ .flex-container-footer {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .flex-container-even {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+ 
+ .flex-item-even1 {
+     flex: 0 0 70%;
+     overflow-x: auto;
+ }
+ 
+ .flex-item-even2 {
+     flex: 0 0 30%;
+     margin-top: 22px;
+ }
+ 
+ #even1 {
+     width: 100%;
+ }
+ 
+ #even2 {
+     width: 100%;
+ }
+ 
+ #even3 {
+     width: 100%;
+ }
+ 
+ caption {
+     text-align: left;
+ }
+ 
